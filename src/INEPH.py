@@ -5,11 +5,14 @@ import numpy as np
 import matplotlib.dates as mdates
 import dateutil as du
 from datetime import datetime
+from datetime import timedelta
 
 
-INeph1 = '/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-19-2017/NL170619Frame.csv'
+INeph1Linux = '/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-19-2017/NL170619Frame.csv'
+INeph1Windows = 'C:/Users/sm2/Documents/Github Repository Clone/TSI-3563-INeph/Data/06-19-2017/NL170619Frame.csv'
 
-INEPH = pd.read_csv(INeph1, delimiter=',', header=0)
+
+INEPH = pd.read_csv(INeph1Windows, delimiter=',', header=0)
 
 def SAE_function(sigma1, sigma2, lambda1, lambda2):
     return -1.0*(np.log(sigma1/sigma2)/np.log(lambda1/lambda2))
@@ -119,3 +122,5 @@ axx[1].set_ylabel('Corrected b ${(Mm^-1)}$')
 plt.xticks(rotation=80)
 plt.tight_layout()
 plt.show()
+
+
