@@ -57,10 +57,4 @@ def n_point_average(number, data):
     return [time_bins, mean_data1, mean_data2]
 
 
-
-
-
-
-
-
 n_point_average(300, BBCES)
