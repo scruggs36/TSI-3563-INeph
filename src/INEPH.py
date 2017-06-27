@@ -8,8 +8,12 @@ from datetime import datetime
 from datetime import timedelta
 
 
+<<<<<<< Updated upstream
 INeph1Linux = '/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-19-2017/NL170619Frame.csv'
 INeph1Windows = 'C:/Users/sm2/Documents/Github Repository Clone/TSI-3563-INeph/Data/06-19-2017/NL170619Frame.csv'
+=======
+INeph1 = '/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-20-2017/NL170620Frame.csv'
+>>>>>>> Stashed changes
 
 
 INEPH = pd.read_csv(INeph1Windows, delimiter=',', header=0)
@@ -91,8 +95,8 @@ def SAE(data):
 
 #SAE(INEPH)
 NephDat = SAE(INEPH)
-path = '/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-19-2017/CorrectedData.csv'
-#NephDat.to_csv(path, sep=',', index=True, header=True)
+path = '/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-20-2017/CorrectedData.csv'
+NephDat.to_csv(path, sep=',', index=True, header=True)
 
 
 

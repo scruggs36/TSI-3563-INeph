@@ -6,7 +6,7 @@ require(httr)
 require(RCurl)
 
     
-    neph <- read.csv(file = "/home/austen/PycharmProjects/Integrating Nephelometer/Data/Neph Data/06-19-2017/NL170619.dat", head = F)%>%
+    neph <- read.csv(file = "/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-20-2017/NL170620.dat", head = F)%>%
       filter(V1 == 'D' | V1 =='T')
     
     # filter out data with no time value ----
@@ -63,7 +63,7 @@ require(RCurl)
       theme(legend.position = c(0, 1), legend.justification = c(0, 1))  #+ xlim(xmin, xmax)
     print(p.neph)
   
-    neph <- read.csv(file  = "/home/austen/PycharmProjects/Integrating Nephelometer/Data/Neph Data/06-19-2017/NL170619.dat", head = F)%>%
+    neph <- read.csv(file  = "/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-20-2017/NL170620.dat", head = F)%>%
       filter(V1 == 'D' | V1 =='T')
     
     # filter out data with no time value ----
@@ -123,4 +123,4 @@ require(RCurl)
       ylab(expression(paste('[P',M[2.5], '] (', mu,'g ', m^-3,')'))) + geom_line(color = 'dodgerblue') #+ xlim(xmin, xmax)
     print(p.pm)
     
-    write.csv(neph, file = "/home/austen/PycharmProjects/Integrating Nephelometer/Data/Neph Data/06-19-2017/NL170619Frame.csv", row.names = FALSE)
+    write.csv(neph, file = "/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-20-2017/NL170620Frame.csv", row.names = FALSE)
