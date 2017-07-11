@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates
 
 
-path = "/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-19-2017/NL170619.dat"
+path = "/home/austen/PycharmProjects/TSI-3563-INeph/Data/06-20-2017/NL170620.dat"
 DatFile = open(path, "r")
 Lines = DatFile.readlines()
 
