@@ -4,12 +4,15 @@
     <list default="true" id="0e634691-15df-47bd-b76a-2a94ea39b101" name="Default" comment="">
 <<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TSI_Dat_Reader.py" afterPath="$PROJECT_DIR$/src/TSI_Dat_Reader.py" />
 =======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/06-19-2017/Calibration Constants K2 and K4.xlsx" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/06-19-2017/Cal_K2_K4.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/06-20-2017/NL170620.dat" afterPath="$PROJECT_DIR$/Data/06-20-2017/NL170620.dat" />
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +28,7 @@
       <file leaf-file-name="TSI_Dat_Reader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TSI_Dat_Reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3076">
+            <state relative-caret-position="-2863">
               <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -348,13 +351,19 @@
       <option name="project" value="LOCAL" />
       <updated>1499727905761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed the BBCES code to be able to compare data from the BBCES to the INEPH.">
+      <created>1499785922512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1499785922512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29482073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
@@ -364,7 +373,7 @@
 >>>>>>> Stashed changes
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -492,7 +501,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TSI_Dat_Reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3076">
+        <state relative-caret-position="-2863">
           <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
 =======
         <state relative-caret-position="1995">
