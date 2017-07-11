@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 import matplotlib.dates
@@ -98,6 +99,19 @@ print(len(Lamp_Amps))
 print(len(Lamp_Volts))
 print(len(BNC_Volts))
 '''
+blue_tot_scatter = [float(i) * 1E6 for i in blue_tot_scatter]
+green_tot_scatter = [float(i) * 1E6 for i in green_tot_scatter]
+red_tot_scatter = [float(i) * 1E6 for i in red_tot_scatter]
+blue_bak_scatter = [float(i) * 1E6 for i in blue_bak_scatter]
+green_bak_scatter = [float(i) * 1E6 for i in green_bak_scatter]
+red_bak_scatter = [float(i) * 1E6 for i in red_bak_scatter]
+pressure = [float(i) for i in pressure]
+sample_temp = [float(i) for i in sample_temp]
+inlet_temp = [float(i) for i in inlet_temp]
+RH = [float(i) for i in RH]
+Lamp_Amps = [float(i) for i in Lamp_Amps]
+Lamp_Volts = [float(i) for i in Lamp_Volts]
+BNC_Volts = [float(i) for i in BNC_Volts]
 
 # create data frame for saving a text file
 DF = pd.DataFrame()
@@ -124,7 +138,7 @@ ax0.plot(DF['Date Times'], DF['Green Total Scattering Coefficient'], 'g-', label
 ax0.plot(DF['Date Times'], DF['Red Total Scattering Coefficient'], 'r-', label='Red Total Scattering')
 ax0.set_title('Scattering Coefficients as a Function of Time')
 ax0.set_xlabel('Time')
-ax0.set_ylabel('Scattering Coefficient (M^-1)')
+ax0.set_ylabel('Scattering Coefficient (Mm^-1)')
 ax0.xaxis.set_major_formatter(xfmt)
 plt.legend(loc=1)
 plt.xticks(rotation=80)
@@ -138,7 +152,7 @@ ax1.plot(DF['Date Times'], DF['Green Back Scattering Coefficient'], 'g-', label=
 ax1.plot(DF['Date Times'], DF['Red Back Scattering Coefficient'], 'r-', label='Red Back Scattering')
 ax1.set_title('Back Scattering Coefficients as a Function of Time')
 ax1.set_xlabel('Time')
-ax1.set_ylabel('Scattering Coefficient (M^-1)')
+ax1.set_ylabel('Scattering Coefficient (Mm^-1)')
 ax1.xaxis.set_major_formatter(xfmt)
 plt.legend(loc=1)
 plt.xticks(rotation=80)
